@@ -1,0 +1,19 @@
+@import '../utils/variables.scss';
+@import '../utils/mixings.scss';
+
+%footer-bar-basic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 12vh;
+    color: white;
+    margin: 0px;
+}
+
+.footer-day {
+    @extend %footer-bar-basic;
+    background-color: $light-orange;
+    color: $blue;
+}
+
+//El simbolo de porcentaje es para poner los estilos padre que afectan a todo el componente

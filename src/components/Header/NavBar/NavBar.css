@@ -1,0 +1,11 @@
+.links {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: center;
+}
+
+.links {
+    text-decoration: none;
+    color: bisque;
+}
